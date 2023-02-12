@@ -1,0 +1,162 @@
+/*Pré formatações*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #F1F1F1;
+}
+/*Pré formatações*/
+
+/*Cabeçalho*/
+#cabecalho{
+	text-align: center;
+	background: #F7B600;
+	padding-bottom: 20px;
+}
+
+H1{
+	font-size: 3em;
+	padding: 25px;
+}
+
+.cinza1{
+	color: #4E4E4E;
+}
+
+.branco{
+	color: #FFFFFF;
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#cabecalho a:hover{
+	background: #FFFFFF;
+	color: #F7B600;
+} 
+
+/*Cabeçalho*/
+
+#principal{
+	width: 920px;
+	margin: 15px auto;
+}
+
+#principal a:link, #principal a:visited{
+	color: #F8B600;
+	text-decoration: none;
+}
+
+#principal a:hover{
+	color: #F8B600;
+	text-decoration: underline;
+}
+
+/*posts*/
+
+#feed{
+	width: 650px;
+	float: left;
+}
+
+.posts{
+	width: 630px;
+	background: #FFFFFF;
+	padding-left: 10px;
+	margin-bottom: 15px;
+}
+
+.posts h2{
+	color: #F7B600;
+}
+
+h5{
+	font-weight: normal;
+}
+
+img{
+	width: 580px;
+}
+
+.posts h4{
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.posts a:link , .posts a:visited{
+	color: #F7B600;
+	font-size: 0.95em;
+	text-decoration: none;
+}
+
+.posts a:hover{
+	text-decoration: underline;
+}
+/*posts*/
+
+/*Área Lateral*/
+#area-lateral{
+	width: 250px;
+	float: right;
+}
+
+.sugestoes{
+	width: 240px;
+	background: #FFFFFF;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.sugestoes h2{
+	color: #565656;
+	background: #CCCCCC;
+	font-size: 1.3em;
+	padding-left: 1px;
+}
+
+.sugestoes a, #principal a:visited{
+	color: #F8B600;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+.sugestoes a:hover{
+	color: #F8B600;
+	text-decoration: underline;
+}
+
+.sugestoes hr{
+	margin: 05px 0px;
+}
+
+.categorias{
+	width: 240px;
+	background: #FFFFFF;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.categorias a:link, #principal a:visited{
+	color: #F8B600;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.sugestoes a:hover{
+	color: #F8B600;
+	text-decoration: underline;
+}
+
+.categorias h2{
+	color: #565656;
+	background: #CCCCCC;
+	font-size: 1.3em;
+	padding-left: 1px;
+}
